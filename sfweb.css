@@ -74,8 +74,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
     position: relative;
     width: 100%;
     padding: 0;
@@ -434,7 +432,7 @@ a {
     }
 }
 
-
+/*
 .ln-content-buttonWhitePaper {
     align-items: center;
     display: flex;
@@ -446,14 +444,14 @@ a {
 .ln-content .buttonWhitePaper {
     text-decoration: none;
     font-style: normal;
-    font-size: 34px; /* Larger font size */
-    font-weight: 600; /* Slightly bolder text */
-    height: 80px; /* Increased height */
-    width: 250px; /* Increased width */
-    max-width: 500px; /* Max width to prevent overflow on smaller screens */
+    font-size: 34px; // Larger font size 
+    font-weight: 600; // Slightly bolder text 
+    height: 80px; // Increased height 
+    width: 250px; // Increased width 
+    max-width: 500px; // Max width to prevent overflow on smaller screens 
     background: linear-gradient(90deg, #fffb22 1.46%, #17e117 99.81%);
     border: 2px solid #000000;
-    border-radius: 90px; /* More rounded corners */
+    border-radius: 90px;
     box-shadow: 0 2px 72.7px #0f2368bd;
     color: #000000;
     display: inline-flex;
@@ -478,7 +476,7 @@ a {
 }
 
 .ln-content .buttonWhitePaper:hover:after {
-    filter: blur(40px); /* Maintain glow effect on hover */
+    filter: blur(40px); // Maintain glow effect on hover 
 }
 
 .ln-content .buttonWhitePaper:before {
@@ -516,7 +514,7 @@ a {
         filter: blur(26px)
     }
 }
-
+*/
 .ln-roadmap {
     margin: 0 auto;
     max-width: 1514px;
