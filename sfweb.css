@@ -49,7 +49,7 @@ a {
 
 .ln {
     align-items: stretch;
-    background-color: #121c11;
+    background-color: #121c11 ;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
